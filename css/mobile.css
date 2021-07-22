@@ -8,7 +8,17 @@ and (max-device-width : 480px) {
     height: 48px !important;
 }
 
+.logo2{
+    padding-left: 0px !important;
+}
 
+.logo3{
+    padding-left: 0px !important;
+}
+
+.logo4{
+    padding-left: 0px !important;
+}
 
 .inspect h2{
     font-size: 30px !important;
