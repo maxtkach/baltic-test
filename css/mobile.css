@@ -1,0 +1,315 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+
+.navbar-brand img{
+    height: 48px !important;
+}
+
+
+
+.inspect h2{
+    font-size: 30px !important;
+}
+
+.inspect p{
+    font-size: 20px !important;
+}
+
+.navbar-toggle{
+    margin-top: 27.5px !important;
+}
+
+.card-text{
+    font-size: 15px !important;
+}
+
+.card-img-top{
+    width: 65px !important;
+}
+
+.texts{
+    margin-left: 0px !important;
+    margin-right:0px !important;
+}
+
+.texts div h2{
+    font-size: 35px;
+}
+
+.texts p{
+    font-size: 17px !important;
+    line-height:25px !important;
+}
+
+.logo1 {
+    padding-top: 50px;
+  }
+
+.insp-h h1{
+    font-size: 40px !important;
+}
+
+.check button{
+    width: 253px !important;
+    margin-left: 6%;
+}
+
+.check{
+    padding-left: 5% !important;
+}
+
+.check h2{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px !important;
+    line-height: 55px;
+    padding-top: 15%;
+    color: #FFFFFF;
+    text-align: center !important;
+}
+
+.info-poslugi div div h2 {
+    margin-top: 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px !important;
+    line-height: 38px !important;
+    color: #3E4671;
+}
+
+.info-p {
+    font-family: 'Montserrat', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 20px !important ;
+    line-height: 25px !important;
+    text-align: center !important;
+    color: #3E4671 !important;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.h2span{
+    font-size: 25px !important;
+}
+
+.h2main{
+    font-size: 38px !important;
+
+}
+
+.cards2 img{
+    width: 300px !important;
+}
+
+.adress-texts {
+    padding-top: 12px !important;
+    padding-left: 26px;
+}
+
+.address {
+    font-family: 'Montserrat', sans-serif !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px !important;
+    line-height: 67px;
+    color: #FFFFFF;
+}
+
+.adress-desc{
+    font-size: 21px !important;
+}
+
+.lab-text {
+    text-align: left;
+    padding-top: 90px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px !important;
+    line-height: 130.4% !important;
+    letter-spacing: 0 !important;
+    color: #3E4671;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn-lab-txt{
+    font-size: 20px !important;
+}
+
+.slider-text-inner h2 {
+    font-family: 'TacticSans-Bld', sans-serif;
+    font-size: 62px !important;
+}
+
+.lab-button {
+    background: #3E4671 !important;
+    box-shadow: 0px 7px 14px rgb(0 0 0 / 25%) !important;
+    border-radius: 104px !important;
+    width: 197px !important;
+    height: 54px !important;
+    border: none;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.forma{
+    padding-top: 175px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.cont-button{
+    margin-left: 10% !important;
+}
+
+li a{
+    color: #fff !important;
+    background-color: #3E4671 !important;
+}
+
+.globeLogo{
+    height: 135px !important;
+}
+}
+
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+
+
+body {
+    font-size: 11px !important;
+}
+
+.navbar-brand img{
+    height: 50px !important;
+}
+
+.navbar  li a{
+    padding: 3.4em 1.3em !important;
+}
+
+.logo1 {
+    padding-top: 50px;
+  }
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */    
+    body {
+        font-size: 14px !important;
+    }
+
+    .col-md-offset-1 {
+        margin-left: 0 !important;
+    }
+    .navbar li a {
+        padding: 2.7em 1.4em !important;
+    }
+
+    .texts {
+        text-align: center;
+    }
+
+    .texts p{
+        font-size: 26px !important;
+    }
+
+    .texts h2{
+        font-size: 50px !important;
+    }
+
+    .logo1{
+        width: 200px !important;
+    }
+
+    
+
+
+    .info-poslugi div div h2 {
+        margin-top: 70px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 35px !important;
+        line-height: 38px !important;
+        color: #3E4671;
+    }
+    
+    .info-p {
+        font-family: 'Montserrat', sans-serif !important;
+        font-style: normal !important;
+        font-weight: 600 !important;
+        font-size: 25px !important ;
+        line-height: 25px !important;
+        text-align: center !important;
+        color: #3E4671 !important;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .info-poslugi{
+        height: 312px !important;
+    }
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+
+    
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+
+    .lab-container {
+        padding-left: 6% !important;
+    }
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
