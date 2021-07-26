@@ -5,11 +5,29 @@ and (max-device-width : 480px) {
 /* Styles */
 
 .navbar-brand img{
-    height: 48px !important;
+    height: 57px !important;
 }
 
 .logo2{
     padding-left: 0px !important;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    margin-right: 39px !important;
+    padding: 9px 10px;
+    margin-top: 27.5px !important;
+    margin-bottom: 10.5px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    /* align-self: center; */
+}
+
+.lab{
+    margin-left:0px  !important;
 }
 
 .logo3{
@@ -29,7 +47,7 @@ and (max-device-width : 480px) {
 }
 
 .navbar-toggle{
-    margin-top: 27.5px !important;
+    margin-top: 0;
 }
 
 .card-text{
@@ -155,7 +173,7 @@ and (max-device-width : 480px) {
 
 .slider-text-inner h2 {
     font-family: 'TacticSans-Bld', sans-serif;
-    font-size: 62px !important;
+    font-size: 39px !important;
 }
 
 .lab-button {
@@ -184,7 +202,8 @@ li a{
 }
 
 .globeLogo{
-    height: 135px !important;
+    height: 100px !important;
+    width: 150px !important;
 }
 }
 
@@ -213,8 +232,18 @@ body {
     font-size: 11px !important;
 }
 
+.globeLogo{
+    width: 135px !important;
+}
+
+#gtco-hero .flexslider .slider-text>.slider-text-inner h2 {
+    font-size: 63px !important;
+    font-weight: 300;
+    color: #fff;
+}
+
 .navbar-brand img{
-    height: 50px !important;
+    height: 48px !important;
 }
 
 .navbar  li a{
@@ -224,6 +253,29 @@ body {
 .logo1 {
     padding-top: 50px;
   }
+  .adress-desc{
+    font-size: 18px !important;
+    line-height: 44px !important;
+}
+
+.lab{
+    margin-left:0px  !important;
+}
+
+.img-col-solo img {
+    width: 500px !important;
+    height: auto;
+    object-position: center;
+}
+
+.address {
+    font-family: 'Montserrat', sans-serif !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px !important;
+    line-height: 67px;
+    color: #FFFFFF;
+}
 
 }
 
@@ -234,14 +286,11 @@ and (max-device-width : 1024px)
 and (orientation : landscape) {
 /* Styles */    
     body {
-        font-size: 14px !important;
+        font-size: 12px !important;
     }
 
-    .col-md-offset-1 {
-        margin-left: 0 !important;
-    }
     .navbar li a {
-        padding: 2.7em 1.4em !important;
+        padding: 2.7em 0.7em !important;
     }
 
     .texts {
@@ -289,6 +338,14 @@ and (orientation : landscape) {
         height: 312px !important;
     }
 
+
+
+    .img-col-solo img {
+        width: 500px   !important;
+        height: auto;
+        object-position: center;
+    }
+
 }
 
 /* iPads (portrait) ----------- */
@@ -300,6 +357,8 @@ and (orientation : portrait) {
 
     
 }
+
+
 
 /* Desktops and laptops ----------- */
 @media only screen 
@@ -322,4 +381,27 @@ and (min-width : 1824px) {
 only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
 /* Styles */
+}
+
+@media only screen and (max-device-width : 1440px){
+    .img-col-solo img {
+        width: 700px !important;
+        height: auto;
+        object-position: center;
+    }
+    .img-col img {
+        width: 700px !important;
+        height: auto;
+    }
+    .lab-text {
+        text-align: left;
+        padding-top: 100px !important;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px !important;
+        line-height: 160.4%;
+        letter-spacing: 0.035em;
+        color: #3E4671;
+    }
 }

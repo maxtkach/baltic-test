@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 400;
   /* Браузер сначала попробует найти шрифт локально */
-  src: local("TacticSans-Bld"),
+  src:
     url("../fonts/TacticSans-Bld.otf") format("otf");
 }
 
@@ -216,6 +216,25 @@ h1 {
   color: #C1C1C1;
 }
 
+.lab{
+  margin-left: 4em;
+  margin-right: auto;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.img-col  {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  width: auto; 
+}
+
+.img-col-solo{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  width: auto;
+}
+
 .forma {
   padding-top: 175px;
 }
@@ -300,13 +319,13 @@ h1 {
 }
 
 .img-col img {
-  width: 780px !important;
-  height: 447px !important;
+  width: auto;
+  height: auto;
 }
 
 .img-col-solo img {
-  width: 733px !important;
-  height: 634px !important;
+  width: auto;
+  height: auto;
 }
 
 .globeLogo {
@@ -351,7 +370,7 @@ h1 {
 
 .navbar {
   margin-bottom: 0px;
-  height: 97px;
+  height: auto;
 }
 
 .texts {
@@ -383,7 +402,7 @@ a {
 
 #gtco-hero .flexslider .flex-direction-nav a.flex-prev {
   opacity: 1 !important;
-  left: 40px !important;
+  left: 5px !important;
   background: transparent !important;
 }
 
@@ -734,14 +753,14 @@ figure {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.2);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 
 .gtco-video:hover .overlay {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .gtco-video:hover a {
@@ -1256,6 +1275,7 @@ form label {
 
 .gtco-heading {
   margin-bottom: 5em;
+  margin-top: 5em;
 }
 
 @media screen and (max-width: 768px) {
@@ -2726,6 +2746,25 @@ form label {
   padding: 14px 30px !important;
 }
 
+.sudno-txt {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.sudno-txt hr{
+  border-top:transparent;
+}
+
+.sudno-txt p {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  padding-left: 50px;padding-right: 50px;
+}
+
 #gtco-hero .flexslider {
   border: none;
   z-index: 1;
@@ -2751,7 +2790,7 @@ form label {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.3);
 }
 
 #gtco-hero .flexslider .flex-control-nav {
@@ -2795,7 +2834,7 @@ form label {
 
 #gtco-hero .flexslider .flex-direction-nav a.flex-prev {
   opacity: 1 !important;
-  left: 40px !important;
+  left: 5px !important;
 }
 
 #gtco-hero .flexslider .flex-direction-nav a.flex-prev:before {
@@ -2814,7 +2853,7 @@ form label {
 }
 
 #gtco-hero .flexslider .flex-direction-nav a.flex-next {
-  right: 40px !important;
+  right: 5px !important;
   opacity: 1 !important;
 }
 
