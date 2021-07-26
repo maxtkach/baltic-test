@@ -26,15 +26,33 @@ and (max-device-width : 480px) {
     /* align-self: center; */
 }
 
+body{
+    padding: 0px !important;
+}
+
 .lab{
     margin-left:0px  !important;
 }
 
+.logo1{
+    width: 200px;
+}
+
+.navbar-brand {
+    margin-left: 2% !important;
+}
+
+.logo2{
+    width: 200px;
+}
+
 .logo3{
+    width: 200px;
     padding-left: 0px !important;
 }
 
 .logo4{
+    width: 200px;
     padding-left: 0px !important;
 }
 
@@ -44,6 +62,12 @@ and (max-device-width : 480px) {
 
 .inspect p{
     font-size: 20px !important;
+}
+
+.sudno-txt p {
+
+    font-size: 20px !important;
+
 }
 
 .navbar-toggle{
@@ -404,4 +428,6 @@ only screen and (min-device-pixel-ratio : 1.5) {
         letter-spacing: 0.035em;
         color: #3E4671;
     }
+
+    
 }
