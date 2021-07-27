@@ -41,7 +41,7 @@ h1 {
 }
 
 .navbar li a {
-  padding: 4em 1.3em;
+  padding: 3.4em 1.3em;
 }
 
 .navbar-default .navbar-nav>.active>a,
@@ -114,12 +114,12 @@ h1 {
   background: #3E4671 !important;
   box-shadow: 0px 7px 14px rgba(0, 0, 0, 0.25) !important;
   border-radius: 104px !important;
-  width: 227px !important;
+  width: 200px !important;
   height: 64px !important;
   border: none;
-  float: left;
-  margin-left: 1%;
-  margin-top: 20px;
+  float: right;
+  margin-top: 2%;
+  margin-right: 27%;
 }
 
 .form-control {
@@ -284,7 +284,7 @@ h1 {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 173.9%;
   /* or 42px */
   display: flex;
@@ -383,7 +383,7 @@ h1 {
 
 a {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   color: #3E4671;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
@@ -2153,18 +2153,19 @@ form label {
 }
 
 
+
+
 .logo2 {
-  padding-left: 50px;
+  padding-left: 80px;
 
 }
 
 .logo3 {
-  padding-left: 50px;
-
+  padding-left: 110px;
 }
 
 .logo4 {
-  padding-left: 50px;
+  padding-left: 140px;
 }
 
 
