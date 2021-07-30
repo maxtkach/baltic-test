@@ -224,7 +224,6 @@ h1 {
 }
 
 .lab{
-  margin-left: 4em;
   margin-right: auto;
   padding-left: auto;
   padding-right: auto;
@@ -304,12 +303,13 @@ h1 {
 
 .lab-text {
   text-align: left;
-  padding-top: 90px;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 160.4%;
+
+  width: 90%;
 
   letter-spacing: 0.035em;
 
@@ -323,7 +323,9 @@ h1 {
 
 .lab-container {
   padding-left: 5%;
+  padding-top: 5em;
 }
+
 
 .img-col img {
   width: 600px;

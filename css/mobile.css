@@ -451,7 +451,6 @@ only screen and (min-device-pixel-ratio : 1.5) {
     }
     .lab-text {
         text-align: left;
-        padding-top: 100px !important;
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 600;
