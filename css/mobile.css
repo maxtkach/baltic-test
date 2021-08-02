@@ -402,6 +402,10 @@ and (orientation : landscape) {
         object-position: center;
     }
 
+    .cards2 img {
+        width: 291px !important;
+    }
+
 }
 
 /* iPads (portrait) ----------- */
@@ -458,6 +462,38 @@ only screen and (min-device-pixel-ratio : 1.5) {
         line-height: 160.4%;
         letter-spacing: 0.035em;
         color: #3E4671;
+    }
+
+    .logo1{
+        width: 200px;
+        padding-left: 0px !important;
+        margin-left: 30px;
+    }
+    
+    .logo2{
+        width: 200px;
+        padding-left: 0px !important;
+        margin-left: 85px;
+    }
+    
+    .logo3{
+        width: 200px;
+        padding-left: 0px !important;
+        margin-left: 115px;
+    }
+    
+    .logo4{
+        width: 200px;
+        padding-left: 0px !important;
+        margin-left: 145px;
+    }
+
+    .certificates .col-md-3{
+        width: 16.66667% !important;
+    }
+
+    .cards2 img{
+        width: 425px;
     }
 
 
