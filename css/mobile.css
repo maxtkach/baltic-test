@@ -19,7 +19,8 @@ and (max-device-width : 480px) {
 }
 
 .img-col img{
-    width: 335px !important;
+    width: 105% !important;
+    height: auto !important;
     
 }
 
@@ -120,7 +121,7 @@ and (max-device-width : 480px) {
 
 .check button{
     width: 253px !important;
-    margin-left: 6%;
+    margin-left: 14%;
 }
 
 .check{
@@ -174,10 +175,9 @@ and (max-device-width : 480px) {
 }
 
 .adress-texts {
-    padding-top: 12px !important;
-    padding-left: 26px;
+    padding-top: 0 !important;
+    padding-left: 53px;
 }
-
 .address {
     font-family: 'Montserrat', sans-serif !important;
     font-style: normal;
