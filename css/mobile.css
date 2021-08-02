@@ -29,7 +29,15 @@ and (max-device-width : 480px) {
     height: auto !important;
     margin: initial !important;
     width: auto !important;
-    padding: 3.4em 1.3em !important;
+    padding: 1.4em 1.3em !important;
+}
+
+.cont-button{
+    margin-right: 36% !important;
+}
+
+.navbar li a {
+    padding: 1.4em 1.3em !important;
 }
 
 .dropdown-menu{
@@ -88,11 +96,13 @@ and (max-device-width : 480px) {
 }
 
 .inspect h2{
-    font-size: 30px !important;
+    font-size: 14px !important;
+    line-height:30px !important;
 }
 
 .inspect p{
-    font-size: 20px !important;
+    font-size: 14px !important;
+    line-height: 28px;
 }
 
 .sudno-txt p {
@@ -106,7 +116,8 @@ and (max-device-width : 480px) {
 }
 
 .card-text{
-    font-size: 15px !important;
+    font-size: 14px !important;
+    padding: 22px;
 }
 
 .card-img-top{
@@ -137,7 +148,7 @@ and (max-device-width : 480px) {
 
 .check button{
     width: 253px !important;
-    margin-left: 17%;
+    margin-left: 15%;
 }
 
 .check{
