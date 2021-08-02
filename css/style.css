@@ -114,7 +114,7 @@ h1 {
   height: 50px;
   border: none;
   float: left;
-  margin-left: 2%;
+
 }
 
 .cont-button {
@@ -217,12 +217,25 @@ h1 {
   font-family: 'Montserrat', sans-serif !important;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 21px;
   line-height: 54px;
   /* or 154% */
 
 
   color: #C1C1C1;
+}
+
+.pics-lab .row{
+  width: 100%;
+}
+
+.check {
+
+  width: 100%;
+}
+.contacts {
+
+  width: 100%;
 }
 
 .lab {
@@ -308,11 +321,11 @@ h1 {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 19px;
+  font-size: 14px;
   line-height: 160.4%;
   letter-spacing: 0.035em;
   color: #3E4671;
-  padding: 20px;
+
 }
 
 .slider-text-inner h2 {
@@ -340,6 +353,7 @@ h1 {
 
 .labor {
   width: 700px;
+  padding: 70px;
 }
 
 .globeLogo {
