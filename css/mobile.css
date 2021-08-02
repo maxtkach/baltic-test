@@ -26,7 +26,10 @@ and (max-device-width : 480px) {
 
 .inv-bar {
     opacity: 1 !important;
+    height: auto !important;
+    margin: initial !important;
     width: auto !important;
+    padding: 3.4em 1.3em !important;
 }
 
 .dropdown-menu{
