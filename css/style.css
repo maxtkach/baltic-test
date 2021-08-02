@@ -359,6 +359,11 @@ h1 {
   padding-top: 20%;
 }
 
+.inv-bar{
+  opacity: 0;
+  width: 0px;
+}
+
 .labor {
   width: 700px;
   padding: 80px;
