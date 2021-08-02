@@ -9,8 +9,20 @@ and (max-device-width : 480px) {
 }
 
 .logo2{
-    padding-left: 0px !important;
+    margin-left: 40px !important;
 }
+.logo3{
+    margin-left: 40px !important;
+}
+.logo4{
+    margin-left: 40px !important;
+}
+
+.img-col img{
+    width: 335px !important;
+    
+}
+
 
 .navbar-toggle {
     position: relative;
@@ -24,6 +36,10 @@ and (max-device-width : 480px) {
     border: 1px solid transparent;
     border-radius: 4px;
     /* align-self: center; */
+}
+
+.labor{
+    padding: 0px !important;
 }
 
 
@@ -177,7 +193,7 @@ and (max-device-width : 480px) {
 
 .lab-text {
     text-align: left;
-    padding-top: 90px;
+    padding-top: 40px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -186,7 +202,22 @@ and (max-device-width : 480px) {
     letter-spacing: 0 !important;
     color: #3E4671;
     padding-left: 20px;
-    padding-right: 20px;
+
+
+    padding: 28px;
+    padding-right: 391px;
+}
+
+.lab-button {
+    background: #3E4671 !important;
+    box-shadow: 0px 7px 14px rgb(0 0 0 / 25%) !important;
+    border-radius: 104px !important;
+    width: 150px;
+    height: 50px;
+    border: none;
+    float: left;
+
+    margin-left: 20px;
 }
 
 .btn-lab-txt{
@@ -196,6 +227,15 @@ and (max-device-width : 480px) {
 .slider-text-inner h2 {
     font-family: 'TacticSans-Bld', sans-serif;
     font-size: 39px !important;
+}
+
+.check {
+    /* width: 100%; */
+    width: auto !important;
+}
+
+.contacts {
+    width: auto  !important;
 }
 
 .lab-button {
@@ -445,12 +485,10 @@ only screen and (min-device-pixel-ratio : 1.5) {
 
 @media only screen and (max-device-width : 1440px){
     .img-col-solo img {
-        width: 500px !important;
         height: auto;
         object-position: center;
     }
     .img-col img {
-        width: 500px !important;
         height: auto;
     }
     .lab-text {
@@ -494,6 +532,15 @@ only screen and (min-device-pixel-ratio : 1.5) {
 
     .cards2 img{
         width: 425px;
+    }
+
+    .adress-desc {
+        font-family: 'Montserrat', sans-serif !important;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px !important;
+        line-height: 44px !important;
+        color: #C1C1C1;
     }
 
 
