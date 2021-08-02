@@ -321,11 +321,15 @@ h1 {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 160.4%;
   letter-spacing: 0.035em;
   color: #3E4671;
 
+}
+
+.btn-lab-txt a{
+  color: #FFFFFF !important;
 }
 
 .slider-text-inner h2 {
@@ -353,7 +357,7 @@ h1 {
 
 .labor {
   width: 700px;
-  padding: 70px;
+  padding: 80px;
 }
 
 .globeLogo {
