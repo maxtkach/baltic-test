@@ -208,10 +208,12 @@ and (max-device-width : 480px) {
 
 .map-fullscr {
     padding-bottom: 1em !important;
+    padding-top: 1em !important;
 }
 
 .gtco-hed2 {
     padding-top: 17em !important;
+    padding-bottom: 0em !important;
 }
 
 .sudno-txt {
