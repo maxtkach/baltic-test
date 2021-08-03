@@ -48,6 +48,10 @@ and (max-device-width : 480px) {
     margin: 0 !important;
 }
 
+.gtco-secinsp{
+    padding: 0px !important;
+}
+
 
 .navbar-toggle {
     position: relative;
@@ -106,9 +110,7 @@ and (max-device-width : 480px) {
 }
 
 .sudno-txt p {
-
-    font-size: 20px !important;
-
+    font-size: 13px !important;
 }
 
 .navbar-toggle{
@@ -143,7 +145,7 @@ and (max-device-width : 480px) {
   }
 
 .insp-h h1{
-    font-size: 40px !important;
+    font-size: 20px !important;
 }
 
 .check button{
@@ -188,13 +190,33 @@ and (max-device-width : 480px) {
     padding-right: 10px;
 }
 
-.h2span{
-    font-size: 25px !important;
+.h2span {
+    font-size: 15px !important;
+    padding: 32px;
+    letter-spacing: 0em !important;
+    line-height: 25px !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .h2main{
-    font-size: 38px !important;
+    font-size: 25px !important;
+    padding-top: 0px !important;
+    margin-bottom: 0px !important;
 
+}
+
+.map-fullscr {
+    padding-bottom: 1em !important;
+}
+
+.gtco-hed2 {
+    padding-top: 17em !important;
+}
+
+.sudno-txt {
+    padding-top: 2em !important;
+    padding-bottom: 4em;
 }
 
 .cards2 img{

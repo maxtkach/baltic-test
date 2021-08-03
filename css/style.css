@@ -992,9 +992,9 @@ figure {
   font-style: normal !important;
   font-weight: bold !important;
   font-size: 45px;
-  line-height: 55px !important;
+  line-height: 55px;
   text-align: center !important;
-  letter-spacing: 0.155em !important;
+  letter-spacing: 0.155em ;
 
   color: #3E4671 !important;
 }
@@ -1319,7 +1319,7 @@ form label {
 
 .gtco-heading {
   margin-bottom: 5em;
-  margin-top: 5em;
+  margin-top: 2   em;
 }
 
 @media screen and (max-width: 768px) {
