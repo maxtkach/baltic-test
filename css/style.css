@@ -466,6 +466,8 @@ a:focus {
 
 
 
+
+
 h1,
 h2,
 h3,
@@ -2235,11 +2237,19 @@ form label {
   color: #FFFFFF;
 }
 
-
+.logoz{
+  opacity: 0;
+  height:0px;
+}
 
 .inspect {
   height: auto;
   background: #EEEEEE;
+}
+
+.lg2{
+  opacity: 1;
+  height: auto;
 }
 
 
@@ -2251,7 +2261,7 @@ form label {
   font-size: 50px;
   line-height: 61px;
   text-align: center;
-  padding-top: 67px;
+  padding-top: 20px;
   padding-left: 50px;
   padding-right: 50px;
   max-width: 1300px;
