@@ -1005,6 +1005,18 @@ figure {
   color: #3E4671 !important;
 }
 
+.h2span2 {
+  font-family: 'Montserrat', sans-serif !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 45px;
+  line-height: 55px;
+  text-align: center !important;
+  letter-spacing: 0.155em ;
+
+  color: #3E4671 !important;
+}
+
 .h2main {
   font-family: 'TacticSans-Bld', sans-serif;
   font-style: normal !important;
