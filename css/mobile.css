@@ -151,7 +151,7 @@ and (max-device-width : 480px) {
 
 .check button{
     width: 253px !important;
-    margin-left: 15%;
+    margin-left: 18%;
 }
 
 .check{
@@ -206,6 +206,7 @@ and (max-device-width : 480px) {
     padding-top: 0px !important;
     margin-bottom: 0px !important;
     margin-top: 0px !important;
+    height: 60px;
 
 }
 .logoz{
