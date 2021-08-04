@@ -150,8 +150,13 @@ and (max-device-width : 480px) {
 }
 
 .check button{
-    width: 253px !important;
+    width: 200px !important;
+    height:54px !important;
     margin-left: 18%;
+}
+
+.check button a{
+    font-size: 18px !important;
 }
 
 .check{
