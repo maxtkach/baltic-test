@@ -152,7 +152,7 @@ and (max-device-width : 480px) {
 .check button{
     width: 200px !important;
     height:54px !important;
-    margin-left: 18%;
+    margin-left: 25%;
 }
 
 .check button a{
