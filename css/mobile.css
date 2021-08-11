@@ -152,7 +152,7 @@ and (max-device-width : 480px) {
 .check button{
     width: 200px !important;
     height:54px !important;
-    margin-left: 25%;
+    margin-left: 18%;
 }
 
 .check button a{
@@ -161,13 +161,15 @@ and (max-device-width : 480px) {
 
 .check{
     padding-left: 5% !important;
+    min-height: 290px !important;
+    
 }
 
 .check h2{
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 32px !important;
+    font-size: 19px !important;
     line-height: 55px;
     padding-top: 15%;
     color: #FFFFFF;
