@@ -30,7 +30,7 @@ h1 {
   font-family: 'Montserrat', sans-serif !important;
   font-style: normal !important;
   font-weight: 800 !important;
-  font-size: 63px !important;
+  font-size: 63px;
   line-height: 77px !important;
   color: #3E4671 !important;
   text-align: center !important;
@@ -2272,7 +2272,7 @@ form label {
 }
 
 .insp-h h1{
-  font-size: 45px !important;
+  font-size: 45px;
 }
 
 .gtco-heading{
