@@ -8,16 +8,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Baltic Control" />
 
+	<meta name="google-site-verification" content="5-y2svCvq6VU3RbQhEiI1MVONvw88_3k-zhdFDZA7wg" />
+
 
 
 	<link rel="shortcut icon" href="./img/logos/globeLogo.svg" type="image/png">
+
+
 
 
 	<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
 
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="./css/animate.css">
-	<link rel="stylesheet" href="./css/mobile.css">
+	<link rel="stylesheet" href="./css/newmobile.css">
 	<!-- Icomoon Icon Fonts-->
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
 		rel="stylesheet">
@@ -34,12 +38,18 @@
 	<!-- Flexslider -->
 	<link rel="stylesheet" href="./css/flexslider.css">
 	<!-- Theme style  -->
-	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/newstyle.css">
 
 	<link rel="stylesheet" href="./fonts/TacticSans-Bld.woff">
 
+	<link rel="stylesheet" href="./css/inspect.css">
+
 	<!-- Modernizr JS -->
+	<script src="js/jquery.min.js"></script>
 	<script src="./js/modernizr-2.6.2.min.js"></script>
+
+	<script src="./js/jquery.validate.min.js"></script>
+	<script src="./js/script.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
@@ -56,7 +66,7 @@
 		<nav class="navbar navbar-default navbar-static-top row">
 			<div class="container-fluid">
 				<div class="navbar-header">
-					<a class="navbar-brand" href="#"><img src="./img/logos/logo.svg" alt="" srcset="" "></a>
+					<a class="navbar-brand" href="#"><img src="./img/logos/logo.png" alt="" srcset="" "></a>
 
 					<button type=" button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 						<span class="sr-only">Toggle navigation</span>
@@ -69,7 +79,31 @@
 					<li class="active"><a href="#main">ГОЛОВНА</a></li>
 					<li><a href="#about">ПРО КОМПАНІЮ</a></li>
 					<li><a href="#certificates">СЕРТИФІКАТИ</a></li>
-					<li><a href="#poslugi">НАШІ ПОСЛУГИ</a></li>
+					<li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            НАШІ ПОСЛУГИ
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="./inspect-ua.html">Морська інспекція</a>
+                            <a class="dropdown-item" href="./inspect-ua.html">Інспекція сухих грузів</a>
+                            <a class="dropdown-item" href="./inspect-ua.html">Инспекція наливних грузів</a>
+                            <a class="dropdown-item" href="./inspect-ua.html">Послуги лабораторії</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="./inspect-ua.html" class="inv-bar" style="padding:0px;">МОРСЬКА ІНСПЕКЦІЯ</a>
+                    </li>
+                    <li>
+                        <a href="./inspect-ua.html" class="inv-bar" style="padding:0px;">ІНСПЕКЦІЯ СУХИХ ВАНТАЖІВ</a>
+                    </li>
+                    <li>
+                        <a href="./inspect-ua.html" class="inv-bar" style="padding:0px;">ІНСПЕКЦІЯ НАЛИВНИХ ВАНТАЖІВ</a>
+                    </li>
+                    <li>
+                        <a href="./inspect-ua.html" class="inv-bar" style="padding:0px;">ПОСЛУГИ ЛАБОРАТОРІЇ</a>
+                    </li>
 					<li><a href="#office">ОФІС</a></li>
 					<li><a href="#laba">ЛАБОРАТОРІЯ</a></li>
 					<li><a href="#contacts">КОНТАКТИ</a></li>
@@ -78,17 +112,17 @@
 							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							УКР
 						</a>
-						
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="#">РУ</a>
-							<a class="dropdown-item" href="#">ENG</a>
+
+						<div class="dropdown-menu dropdown-menu2" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="./ru.html">РУ</a>
+							<a class="dropdown-item" href="./eng.html">ENG</a>
 						</div>
 					</li>
-				<li>
-					<a href="#contacts" class="inv-bar" style="padding:0px;"> РУ</a>
-				</li>
-				
-				<li ><a href="#contacts" class="inv-bar" style="padding:0px;">ENG</a></li>
+					<li>
+						<a href="./ru.html" class="inv-bar" style="padding:0px;"> РУ</a>
+					</li>
+
+					<li><a href="./eng.html" class="inv-bar" style="padding:0px;">ENG</a></li>
 				</ul>
 
 			</div>
@@ -140,7 +174,7 @@
 			</div>
 		</div>
 
-		<div class="container cards">
+		<div class="container cards" id="about">
 
 
 			<div class="row">
@@ -204,7 +238,7 @@
 	</div>
 	</div>
 
-	<div class="third-block" id="about">
+	<div class="third-block" id="certificates">
 		<div class="col texts">
 			<div class="row text-center">
 				<h2>
@@ -216,14 +250,13 @@
 					Індивідуальний підхід до кожного клієнта
 					– це те, завдяки чому команда Baltic Control Ukraine має репутацію доброчесності та майстерності
 					і вже понад 14 років надає клієнтам ефективне та конкурентоспроможне обслуговування.
-					Ми працюємо 24 години на добу, 365 днів на рік.
 
 				</p>
 			</div>
 		</div>
 	</div>
 
-	<div class="certificates container text-center " id="certificates">
+	<div class="certificates container text-center ">
 		<div class="row lg2">
 			<div class="col-md-3 col-sm-6">
 				<img src="./img/logos/gafta.svg" alt="" class="logo1 lg2">
@@ -262,7 +295,7 @@
 			</div>
 		</div>
 
-		
+
 	</div>
 
 
@@ -536,7 +569,7 @@
 		<div class="pics-lab">
 			<div class="row">
 				<div class="col-md-4 img-col"><img src="./img/kollage2/kolDoc2.svg" alt=""></div>
-				<div class="col-md-4 img-col"><img src="./img/kollage2/kolDoc5.svg" alt=""></div>	
+				<div class="col-md-4 img-col"><img src="./img/kollage2/kolDoc5.svg" alt=""></div>
 				<div class="col-md-4 img-col"><img src="./img/kollage2/kolDoc4.jpg" alt=""></div>
 			</div>
 			<div class="row">
@@ -586,20 +619,20 @@
 
 		<div class="contacts row " id="contacts">
 			<div class="form-wrap col-md-6  col-md-offset-1">
-				<form class="forma">
+				<form class="forma" action="sender.php" method="post">
 
 					<div class="form-group col-md-4">
-						<input type="email" class="form-control" id="inputEmail4" placeholder="ім`я">
+						<input type="text"  class="form-control" id="inputEmail4" placeholder="ім`я" name="user_name" required>
 					</div>
 					<div class="form-group col-md-offset-1 col-md-4">
-						<input type="password" class="form-control" id="inputPassword4" placeholder="пошта">
+						<input type="email" class="form-control" id="inputPassword4" placeholder="пошта" name="user_email" required>
 					</div>
 					<div class="form-group  col-md-9">
 						<input type="text" class="form-control group1 align-top" id="inputAddress"
-							placeholder="повідомлення">
+							placeholder="повідомлення" name="user_message" required>
 					</div>
 					<div class="#">
-						<button type="submit" class="cont-button">
+						<button type="button" class="cont-button">
 							<span class="btn-lab-txt"
 								style="font-weight: 600 !important; ; font-style: normal;">ВІДПРАВИТИ</span>
 						</button>
@@ -615,8 +648,8 @@
 
 				<div class="row adress-desc col-md-3">
 					м. Одеса 65045,
-					<br /> 
-					
+					<br />
+
 					вул. Успенська, 101
 					<br />
 					+38 067 487 35 77
@@ -625,16 +658,18 @@
 				</div>
 			</div>
 
+			<div class="status"></div>
+
 		</div>
 
 
 
 		<div class="gototop js-top">
-			<a href="#" class="js-gotop"><img src="https://img.icons8.com/ios-filled/30/ffffff/up--v1.png"/></a>
+			<a href="#" class="js-gotop"><img src="https://img.icons8.com/ios-filled/30/ffffff/up--v1.png" /></a>
 		</div>
 
 		<!-- jQuery -->
-		<script src="js/jquery.min.js"></script>
+		
 		<!-- jQuery Easing -->
 		<script src="js/jquery.easing.1.3.js"></script>
 		<!-- Bootstrap -->

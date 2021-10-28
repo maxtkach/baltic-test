@@ -1,0 +1,101 @@
+
+
+.oneCard {
+    background: rgba(196, 196, 196, 0.2);
+    margin-bottom: 20px;
+}
+
+.naming {
+    padding-left: 55px;
+    padding-top: 40px;
+
+}
+
+.naming h2 {
+    font-family: 'TacticSans-Bld', sans-serif;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 30px;
+    line-height: 76px;
+
+    color: #3E4671 !important;
+    line-height: 173.9%;
+    /* or 75px */
+
+    letter-spacing: -0.02em;
+
+    margin: 0px !important;
+}
+
+.cardIm2 {
+    padding: 35px;
+}
+
+.dropdown-item {
+    font-size: 18px;
+    padding-top: 10px !important;
+    padding-bottom: 0px !important;
+    padding-left: 10px !important;
+}
+
+.dropdown-menu {
+    min-width: 303px;
+    height: 112px;
+}
+
+.naming p {
+
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 173.9%;
+    /* or 49px */
+
+    letter-spacing: -0.02em;
+
+    color: #000000;
+}
+.n2 {
+    padding-top: 15%;
+}
+
+.buttonOrder {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 219px;
+    height: 77px;
+    margin-left: 15px;
+    background: #3E4671;
+    border-radius: 91px;
+    border: 0px !important;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 173.9%;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.buttonOrder2 {
+    margin-top: 30px;
+    width: 200px;
+    height: 64px;
+    margin-bottom: 20px;
+
+    background: #3E4671;
+    border-radius: 91px;
+    border: 0px !important;
+
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 173.9%;
+    /* or 59px */
+
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}

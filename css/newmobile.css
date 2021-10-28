@@ -1,0 +1,768 @@
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 480px) {
+
+
+    .cardIm2{
+        margin-left: 30px;
+    }
+
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+
+.navbar-brand img{
+    height: 57px !important;
+}
+
+.naming {
+    padding-left: 31px !important;
+    padding-top: 40px;
+}
+
+
+
+.cardIm2 {
+
+    width: 347px !important;
+    margin-top: 16px !important;
+}
+
+.n2 {
+    padding-top: 4% !important;
+}
+
+.naming p {
+    font-size: 16px !important;
+}
+.oneCard {
+    margin-bottom: 40px !important;
+    background: rgba(196, 196, 196, 0.2);
+}
+
+.buttonOrder {
+    margin-top: 0px !important;
+    margin-bottom: 40px !important;
+    width: 171px !important;
+    height: 57px !important;
+    margin-left: 28px !important;
+    background: #3E4671;
+    border-radius: 91px;
+    border: 0px !important;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px !important;
+    line-height: 173.9%;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.buttonOrder2 {
+    margin-top: 30px !important;
+    width: 171px !important;
+    height: 57px !important;
+    background: #3E4671;
+    border-radius: 91px;
+    border: 0px !important;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px !important;
+    line-height: 173.9%;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.naming h2 {
+    font-size: 19px !important;
+    line-height: 26px !important;
+    max-width: 276px;
+}
+
+.logo2{
+    margin-left: 40px !important;
+}
+
+
+.logo3{
+    margin-left: 40px !important;
+}
+.logo4{
+    margin-left: 40px !important;
+}
+
+.img-col img{
+    width: 105% !important;
+    height: auto !important;
+    
+}
+
+
+.ct1 {
+    font-size: 13px !important;
+    padding: 33px;
+}
+
+.inv-bar {
+    opacity: 1 !important;
+    height: auto !important;
+    margin: initial !important;
+    width: auto !important;
+    padding: 1.4em 1.3em !important;
+}
+
+.cont-button{
+    margin-right: 46% !important;
+}
+
+.navbar li a {
+    padding: 1.4em 1.3em !important;
+}
+
+.dropdown-menu{
+    opacity: 0 !important;
+    width: 0px !important;
+    height: 0px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.gtco-secinsp{
+    padding: 0px !important;
+}
+
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    margin-right: 39px !important;
+    padding: 9px 10px;
+    margin-top: 27.5px !important;
+    margin-bottom: 10.5px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    /* align-self: center; */
+}
+
+.labor{
+    padding: 0px !important;
+}
+
+
+
+.lab{
+    margin-left:0px  !important;
+}
+
+.logo1{
+    width: 200px;
+}
+
+.navbar-brand {
+    margin-left: 2% !important;
+}
+
+.logo2{
+    width: 200px;
+}
+
+.logo3{
+    width: 200px;
+    padding-left: 0px !important;
+}
+
+.logo4{
+    width: 200px;
+    padding-left: 0px !important;
+}
+
+.inspect h2{
+    font-size: 16px !important;
+    line-height:30px !important;
+}
+
+.inspect p{
+    font-size: 14px !important;
+    line-height: 28px;
+}
+
+.sudno-txt p {
+    font-size: 13px !important;
+    line-height: 19px !important;
+}
+
+.navbar-toggle{
+    margin-top: 0;
+}
+
+.card-text{
+    font-size: 14px !important;
+    padding: 22px;
+}
+
+.check h2{
+    padding: 17px !important;
+  }
+
+
+
+.card-img-top{
+    width: 65px !important;
+}
+
+.texts{
+    margin-left: 0px !important;
+    margin-right:0px !important;
+}
+
+.texts div h2{
+    font-size: 35px;
+}
+
+.texts p{
+    font-size: 17px !important;
+    line-height:25px !important;
+}
+
+.logo1 {
+    padding-top: 50px;
+  }
+
+.insp-h h1{
+    font-size: 16px !important;
+    margin:0px !important;
+}
+
+.check button{
+    width: 200px !important;
+    height:54px !important;
+    margin-left: 25%;
+}
+
+.check button a{
+    font-size: 18px !important;
+}
+
+.check{
+    padding-left: 5% !important;
+    min-height: 290px !important;
+    
+}
+
+.gtco-heading {
+    margin-bottom: 0em !important;
+}
+
+.check h2{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px !important;
+    line-height: 55px;
+    padding-top: 15%;
+    color: #FFFFFF;
+    text-align: center !important;
+}
+
+.ch2{
+    font-size: 15px !important;
+}
+
+.info-poslugi div div h2 {
+    margin-top: 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px !important;
+    line-height: 38px !important;
+    color: #3E4671;
+}
+
+.info-p {
+    font-family: 'Montserrat', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 20px !important ;
+    line-height: 25px !important;
+    text-align: center !important;
+    color: #3E4671 !important;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.h2span {
+    font-size: 14px !important;
+    padding: 32px;
+    letter-spacing: 0em !important;
+    line-height: 25px !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.h2span2 {
+    font-family: 'Montserrat', sans-serif !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 20px !important;
+    line-height: 0px !important;
+    text-align: center !important;
+    letter-spacing: 0px !important;
+    color: #3E4671 !important;
+}
+
+.h2main{
+    font-size: 25px !important;
+    padding-top: 0px !important;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+    height: 60px;
+
+}
+
+.map-fullscr iframe {
+    width: 100%;
+    height: 320px !important;
+}
+.logoz{
+    width: 130px !important;
+    opacity: 1 !important;
+    height:auto !important;
+    margin-top: 30px;
+    margin-left: 0px !important;
+    padding: 0px !important;
+  }
+
+  .lg2{
+      opacity: 0 !important;
+      height: 0 !important;
+
+  }
+
+.map-fullscr {
+    padding-bottom: 1em !important;
+    padding-top: 2em !important;
+}
+
+.gtco-hed2 {
+    padding-bottom: 0em !important;
+}
+
+.sudno-txt {
+    padding-top: 2em !important;
+    padding-bottom: 4em;
+}
+
+.cards2 img{
+    width: 300px !important;
+}
+
+.adress-texts {
+    padding-top: 0 !important;
+    padding-left: 53px;
+}
+.address {
+    font-family: 'Montserrat', sans-serif !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px !important;
+    line-height: 67px;
+    color: #FFFFFF;
+}
+
+.adress-desc{
+    font-size: 21px !important;
+}
+
+.lab-text {
+    text-align: left;
+    padding-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px !important;
+    line-height: 130.4% !important;
+    letter-spacing: 0 !important;
+    color: #3E4671;
+    padding-left: 20px;
+
+
+    padding: 28px;
+    padding-right: 391px;
+}
+
+.lab-button {
+    background: #3E4671 !important;
+    box-shadow: 0px 7px 14px rgb(0 0 0 / 25%) !important;
+    border-radius: 104px !important;
+    width: 150px;
+    height: 50px;
+    border: none;
+    float: left;
+
+    margin-left: 20px;
+}
+
+.btn-lab-txt{
+    font-size: 18px !important;
+}
+
+
+.cont-button{
+    width: 180px !important;
+    height: 60px !important;
+}
+
+.slider-text-inner h2 {
+    font-family: 'TacticSans-Bld', sans-serif;
+    font-size: 39px !important;
+}
+
+.check {
+    /* width: 100%; */
+    width: auto !important;
+}
+
+.contacts {
+    width: auto  !important;
+}
+
+.lab-button {
+    background: #3E4671 !important;
+    box-shadow: 0px 7px 14px rgb(0 0 0 / 25%) !important;
+    border-radius: 104px !important;
+    width: 197px !important;
+    height: 54px !important;
+    border: none;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.forma{
+    padding-top: 175px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.cont-button{
+    margin-left: 10% !important;
+}
+
+li a{
+    color: #fff !important;
+    background-color: #3E4671 !important;
+}
+
+.globeLogo{
+    height: 100px !important;
+    width: 150px !important;
+}
+}
+
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 320px) and (max-width :768px){
+/* Styles */
+body{
+    padding: 0px !important;
+}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+
+
+.naming {
+    padding-left: 40px !important;
+    padding-top: 40px;
+}
+
+.logo2{
+    padding-left: 50px 
+    ;
+}
+
+.logo3{
+    padding-left: 50px !important;
+}
+
+.logo4{
+    padding-left: 50px !important;
+}
+
+body {
+    font-size: 11px !important;
+    
+}
+
+.globeLogo{
+    width: 135px !important;
+}
+
+#gtco-hero .flexslider .slider-text>.slider-text-inner h2 {
+    font-size: 63px !important;
+    font-weight: 300;
+    color: #fff;
+}
+
+.navbar-brand img{
+    height: 48px !important;
+}
+
+.navbar  li a{
+    padding: 3.4em 1.3em !important;
+}
+
+.logo1 {
+    padding-top: 50px;
+  }
+  .adress-desc{
+    font-size: 18px !important;
+    line-height: 44px !important;
+}
+
+.lab{
+    margin-left:0px  !important;
+}
+
+.img-col-solo img {
+    width: 400px !important;
+    height: auto;
+    object-position: center;
+}
+
+.address {
+    font-family: 'Montserrat', sans-serif !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px !important;
+    line-height: 67px;
+    color: #FFFFFF;
+}
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */    
+    body {
+        font-size: 12px !important;
+        padding: 0 50px !important;
+    }
+
+    .cardIm2 {
+        width: 381px !important;
+        margin-top: 113px !important;
+    }
+    .cardIm {
+        width: 100%;
+    }
+    
+
+    .navbar li a {
+        padding: 2.7em 0.7em !important;
+    }
+
+    .texts {
+        text-align: center;
+    }
+
+    .texts p{
+        font-size: 26px !important;
+    }
+
+    .texts h2{
+        font-size: 50px !important;
+    }
+
+    .logo1{
+        padding-top: 0px !important;
+        width: 200px !important;
+    }
+
+    .logo2{
+        padding-left: 0px !important;
+        width: 200px;
+    }
+    
+    .logo3{
+        padding-left: 0px !important;
+        width: 200px;
+    }
+    
+    .logo4{
+        padding-left: 0px !important;
+        width: 200px;
+    }
+
+    
+
+
+    .info-poslugi div div h2 {
+        margin-top: 70px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 35px !important;
+        line-height: 38px !important;
+        color: #3E4671;
+    }
+    
+    .info-p {
+        font-family: 'Montserrat', sans-serif !important;
+        font-style: normal !important;
+        font-weight: 600 !important;
+        font-size: 25px !important ;
+        line-height: 25px !important;
+        text-align: center !important;
+        color: #3E4671 !important;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .info-poslugi{
+        height: 312px !important;
+    }
+
+
+
+    .img-col-solo img {
+        width: 500px   !important;
+        height: auto;
+        object-position: center;
+    }
+
+    .cards2 img {
+        width: 291px !important;
+    }
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+
+    
+}
+
+
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+
+    .lab-container {
+        padding-left: 6% !important;
+    }
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
+
+@media only screen and (max-device-width : 1440px){
+    .img-col-solo img {
+        height: auto;
+        object-position: center;
+    }
+
+    .cardIm2 {
+        padding: 44px;
+        width: 445px;
+        margin-top: 88px;
+    }
+
+    .img-col img {
+        height: auto;
+    }
+    .lab-text {
+        text-align: left;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px !important;
+        line-height: 160.4%;
+        letter-spacing: 0.035em;
+        color: #3E4671;
+    }
+
+    .logo1{
+        width: 200px;
+        padding-left: 0px !important;
+        margin-left: 30px;
+    }
+    
+    .logo2{
+        width: 200px;
+        padding-left: 0px !important;
+        margin-left: 85px;
+    }
+    
+    .logo3{
+        width: 200px;
+        padding-left: 0px !important;
+        margin-left: 115px;
+    }
+    
+    .logo4{
+        width: 200px;
+        padding-left: 0px !important;
+        margin-left: 145px;
+    }
+
+    .certificates .col-md-3{
+        width: 16.66667% !important;
+    }
+
+    .cards2 img{
+        width: 425px;
+    }
+
+    .adress-desc {
+        font-family: 'Montserrat', sans-serif !important;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px !important;
+        line-height: 44px !important;
+        color: #C1C1C1;
+    }
+
+
+
+    
+}
