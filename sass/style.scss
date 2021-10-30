@@ -187,7 +187,6 @@ h1, h2, h3, h4, h5, h6, figure {
 	z-index: 1001;
 	background: $brand-white;
 
-	webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.15);
 	-moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.15);
 	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.15);
 
@@ -292,10 +291,6 @@ h1, h2, h3, h4, h5, h6, figure {
 					a {
 						color: $brand-white;
 					}
-					.dropdown {
-						// visibility: visible;
-						// opacity: 1;
-					}
 				}
 			}
 			&.btn-cta {
@@ -354,9 +349,6 @@ h1, h2, h3, h4, h5, h6, figure {
 				}
 			}
 		}
-	}
-	&.header-fixed {
-
 	}
 	.text-left {
 		@media screen and (max-width: $screen-xs) {
@@ -1744,10 +1736,7 @@ form {
 }
 
 /* Owl Override Style */
-.owl-carousel .owl-controls,
-.owl-carousel-posts .owl-controls, {
-	margin-top: 0;
-}
+
 .owl-carousel .owl-controls .owl-nav .owl-next,
 .owl-carousel .owl-controls .owl-nav .owl-prev,
 .owl-carousel-posts .owl-controls .owl-nav .owl-next,
@@ -1854,8 +1843,6 @@ form {
 // FAQ
 #gtco-faq {
 	// background: #efefef;
-	padding-top: 20em;
-	margin-top: -20em;
 	position: relative;
 	&:before {
 		content: "";
@@ -1881,12 +1868,6 @@ form {
 		padding: 20px;
 		position: relative;
 		cursor: pointer;
-		h3 {
-			margin: 0;
-			padding: 0;
-			font-size: 18px;
-			color: #brand-primary;
-		}
 		.icon {
 			position: absolute;
 			top: 15px;
