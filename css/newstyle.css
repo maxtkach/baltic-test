@@ -157,6 +157,8 @@ hr{
 
 .map-fullscr {
   padding-bottom: 4em;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .map-fullscr iframe {
@@ -2197,7 +2199,9 @@ form label {
 
 .cards2{
   width: 40% !important;
-  margin-left: 5%;
+  margin-left: 8%;
+  width: 40% !important;
+  margin-right: -7%;
 }
 
 
