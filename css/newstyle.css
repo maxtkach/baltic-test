@@ -1000,7 +1000,7 @@ figure {
   font-family: 'Montserrat', sans-serif !important;
   font-style: normal !important;
   font-weight: bold !important;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 55px;
   text-align: center !important;
   letter-spacing: 0.155em ;
@@ -1012,7 +1012,7 @@ figure {
   font-family: 'Montserrat', sans-serif !important;
   font-style: normal !important;
   font-weight: bold !important;
-  font-size: 45px;
+  font-size: 30px;
   line-height: 55px;
   text-align: center !important;
   letter-spacing: 0.155em ;
@@ -1024,7 +1024,7 @@ figure {
   font-family: 'TacticSans-Bld', sans-serif;
   font-style: normal !important;
   font-weight: normal !important;
-  font-size: 63px;
+  font-size: 45px;
   line-height: 76px !important;
   text-align: center !important;
 
@@ -2201,17 +2201,25 @@ form label {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 25px;
+  font-size: 14px;
   line-height: 163.9%;
 
   text-align: center;
   color: #706F6F;
 }
 
+.card-img img{
+  width: 100px;
+}
+
 .third-block {
   height: auto;
-  min-height: 400px;
+  min-height: 305px;
   background-color: #3E4671;
+}
+
+.card {
+  margin: 30px;
 }
 
 .texts {
@@ -2224,8 +2232,8 @@ form label {
 
 .certificates {
   height: auto;
-  min-height: 290px;
-  padding-top: 3%;
+  /* min-height: 290px; */
+  /* padding-top: 3%; */
 }
 
 .kollage1 div {
@@ -2240,7 +2248,7 @@ form label {
 
 
 
-.logo2 {
+/* .logo2 {
   padding-left: 80px;
 
 }
@@ -2251,14 +2259,14 @@ form label {
 
 .logo4 {
   padding-left: 140px;
-}
+} */
 
 
 .texts p {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 23px;
   line-height: 40px;
   text-align: center;
   letter-spacing: -0.02em;
@@ -2269,7 +2277,7 @@ form label {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 65px;
+  font-size: 40px;
   line-height: 113.4%;
   /* or 74px */
 
@@ -2303,7 +2311,7 @@ form label {
 }
 
 .insp-h h1{
-  font-size: 45px;
+  font-size: 35px;
 }
 
 .gtco-heading{
@@ -2316,7 +2324,7 @@ form label {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 800;
-  font-size: 42px;
+  font-size: 34px;
   line-height: 61px;
   text-align: center;
   padding-top: 20px;
@@ -2332,7 +2340,7 @@ form label {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 22px;
   line-height: 37px;
   text-align: center;
   padding-left: 50px;
@@ -2862,8 +2870,8 @@ form label {
 }
 
 .sudno-txt {
-  padding-top: 4em;
-  padding-bottom: 4em;
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 
 .sudno-txt hr {
@@ -2874,7 +2882,7 @@ form label {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 23px;
   line-height: 37px;
   text-align: center;
   padding-left: 50px;
