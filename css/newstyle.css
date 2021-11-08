@@ -2195,6 +2195,10 @@ form label {
   text-transform: uppercase;
 }
 
+.cards2{
+  width: 40% !important;
+  margin-left: 5%;
+}
 
 
 .card-text {
