@@ -228,6 +228,10 @@ and (max-device-width : 480px) {
     font-size: 35px;
 }
 
+.forma {
+    padding-top: 27px !important;
+}
+
 .texts p{
     font-size: 17px !important;
     line-height:25px !important;
