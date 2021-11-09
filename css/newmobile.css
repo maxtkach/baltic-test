@@ -221,6 +221,7 @@ and (max-device-width : 480px) {
 .texts{
     margin-left: 0px !important;
     margin-right:0px !important;
+    padding-top: 0px !important;
 }
 
 .texts div h2{
@@ -352,6 +353,12 @@ and (max-device-width : 480px) {
 .map-fullscr {
     padding-bottom: 1em !important;
     padding-top: 2em !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.cards2{
+    margin-left: 3% !important;
 }
 
 .gtco-hed2 {
