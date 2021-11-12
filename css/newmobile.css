@@ -38,7 +38,7 @@ and (max-device-width : 480px) {
 }
 
 .naming p {
-    font-size: 16px !important;
+    font-size: 12px !important;
 }
 .oneCard {
     margin-bottom: 40px !important;
@@ -80,7 +80,7 @@ and (max-device-width : 480px) {
 }
 
 .naming h2 {
-    font-size: 19px !important;
+    font-size: 14px !important;
     line-height: 26px !important;
     max-width: 276px;
 }
@@ -230,6 +230,10 @@ and (max-device-width : 480px) {
 
 .forma {
     padding-top: 27px !important;
+}
+
+.naming p{
+    max-width: 325px  !important;
 }
 
 .texts p{

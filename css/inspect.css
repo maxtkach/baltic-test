@@ -28,11 +28,11 @@
 }
 
 .cardIm2 {
-    padding: 35px;
+    padding: 18px;
+    padding-left: 45px;
 }
 
 .dropdown-item {
-    font-size: 18px;
     padding-top: 10px !important;
     padding-bottom: 0px !important;
     padding-left: 10px !important;
@@ -50,6 +50,7 @@
     font-weight: normal;
     font-size: 20px;
     line-height: 173.9%;
+    max-width: 700px;
     /* or 49px */
 
     letter-spacing: -0.02em;
@@ -57,7 +58,7 @@
     color: #000000;
 }
 .n2 {
-    padding-top: 15%;
+    padding-top: 10%;
 }
 
 .buttonOrder {
